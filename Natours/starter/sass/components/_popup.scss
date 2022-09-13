@@ -77,7 +77,6 @@
     hyphens: auto;
 
     @include respond(phone) {
-      //remove columns
       -moz-column-count: 1;
       column-count: 1;
     }
